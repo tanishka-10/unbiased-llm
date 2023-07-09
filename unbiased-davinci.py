@@ -16,6 +16,8 @@
   "pinecone-client[grpc]"==2.2.1
 
 !pip install langchain openai
+pip install gensim
+pip install nltk
 '''
 
 from gensim.models import Word2Vec
