@@ -1,13 +1,10 @@
 import streamlit as st
 import openai as ai
 
-API_ENDPOINT = "https://api.openai.com/v1/chat/completions"
+
 ## Use your own API key: https://platform.openai.com/account/api-keys
 
-try:
-  ai.api_key = "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"
-except:
-  st.text('Add API Key')
+
 
 def chatgpt_call(prompt, model, temperature):
   completion = ai.ChatCompletion.create(
