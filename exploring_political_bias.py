@@ -13,9 +13,7 @@ import pandas as pd
 import json
 from google.colab import data_table
 
-#  Students will need to get their own API key.
-api_key = "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"
-ai.api_key = "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"
+#  need to get own API key.
 
 API_ENDPOINT = "https://api.openai.com/v1/chat/completions"
 
