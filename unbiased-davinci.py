@@ -30,12 +30,8 @@ import openai as ai
 import pandas as pd
 import json
 
-# Students will need to get their own API key.
-api_key = "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"
-ai.api_key = "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"
-API_ENDPOINT = "https://api.openai.com/v1/chat/completions"
-pinecone_api = "b597e2dd-4bc6-4f90-befc-faa372b1be11"
-pinecone_env = "us-west1-gcp-free"
+#will need to get own API key.
+
 
 import os
 
